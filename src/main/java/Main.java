@@ -42,5 +42,7 @@ public class Main {
                 , true);
 
         Theater.printTheater(kharkovTheater);
+        kharkovTheater.heatingOff(false);
+        Theater.printTheater(kharkovTheater);
     }
 }

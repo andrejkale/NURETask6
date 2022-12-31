@@ -29,8 +29,8 @@ public class Theater extends PublicBuilding {
     }
 
     @Override
-    public boolean heatingOff() {
-        return super.heating;
+    public void heatingOff(boolean heating) {
+        super.heating = heating;
     }
 
     public int getGrandstand() {
